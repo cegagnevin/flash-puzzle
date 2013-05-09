@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<movie width="600" height="480" framerate="30" version="10">
+	<background color="#343434" />
+	<frame>
+		<library>
+			<font id="Papyrus" name="Papyrus" import="media/fonts/papyrus.ttf" glyphs="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzçéèêëàù 1234567890+-*/=°@_'#%€()[]{},?;.:!" />
+			<sound id="sound.Ambiance" import="media/sounds/ambiance.mp3"/>
+			
+			<clip id="play" import="media/images/soundPlay.png"/>
+			<clip id="stop" import="media/images/soundStop.png"/>
+			<clip id="display.SoundControlImage">
+				<frame>
+					<place id="play" depth="1" />
+				</frame>
+				<frame>
+					<place id="stop" depth="1" />
+				</frame>
+			</clip>
+		</library>
+	</frame>
+</movie>
